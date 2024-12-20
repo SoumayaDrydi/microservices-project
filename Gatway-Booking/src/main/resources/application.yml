@@ -1,0 +1,13 @@
+server:
+  port: 8088
+
+spring:
+  cloud:
+    gateway: true
+
+    discovery:
+
+      enabled: true
+
+  application:
+    name: Gateway-Booking
